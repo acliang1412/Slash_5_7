@@ -1,0 +1,23 @@
+﻿# Visual Studio / Rider
+.vs/
+.vsconfig
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# Unreal Engine generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.idea/
+
+# Compiled / build artifacts
+*.pdb
+*.obj
+*.o
+
+# LFS-tracked files are fine to keep (handled separately)

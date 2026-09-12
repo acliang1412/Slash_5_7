@@ -11,9 +11,10 @@
 	{ \
 		DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, true, -1.f, 0, 1.f); \
 		DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, true); \
-	}
+	} 
+
 #define DRAW_VECTOR_SingleFrame(StartLocation, EndLocation) if(GetWorld()) \
 	{ \
 		DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Red, false, -1.f, 0, 1.f); \
-		DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, false, -1.f); \ 
+		DrawDebugPoint(GetWorld(), EndLocation, 15.f, FColor::Red, false, -1.f); \
 	}

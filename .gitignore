@@ -21,3 +21,7 @@ Saved/
 *.o
 
 # LFS-tracked files are fine to keep (handled separately)
+
+Content/AncientContent/
+Content/__ExternalActors__/AncientContent/
+Content/__ExternalObjects__/AncientContent/
